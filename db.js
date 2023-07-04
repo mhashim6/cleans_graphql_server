@@ -1,8 +1,13 @@
 module.exports = {
+  reservation: [{
+    id: "479081351",
+    checkInDay: "2023-04-1",
+    checkOutDay: "2023-10-28",
+  }],
   cleans: [
     {
       id: "147",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "missed",
       day: "2023-04-10",
       timeSlot: "morning",
@@ -10,7 +15,7 @@ module.exports = {
     },
     {
       id: "148",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "missed",
       day: "2023-04-17",
       timeSlot: "morning",
@@ -18,7 +23,7 @@ module.exports = {
     },
     {
       id: "149",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "missed",
       day: "2023-04-24",
       timeSlot: "morning",
@@ -26,7 +31,7 @@ module.exports = {
     },
     {
       id: "150",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "missed",
       day: "2023-05-01",
       timeSlot: "morning",
@@ -34,7 +39,7 @@ module.exports = {
     },
     {
       id: "151",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "missed",
       day: "2023-05-08",
       timeSlot: "morning",
@@ -42,7 +47,7 @@ module.exports = {
     },
     {
       id: "152",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "missed",
       day: "2023-05-15",
       timeSlot: "morning",
@@ -50,7 +55,7 @@ module.exports = {
     },
     {
       id: "153",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "missed",
       day: "2023-05-22",
       timeSlot: "morning",
@@ -58,7 +63,7 @@ module.exports = {
     },
     {
       id: "154",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "missed",
       day: "2023-05-29",
       timeSlot: "morning",
@@ -66,7 +71,7 @@ module.exports = {
     },
     {
       id: "155",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "missed",
       day: "2023-06-05",
       timeSlot: "morning",
@@ -74,7 +79,7 @@ module.exports = {
     },
     {
       id: "156",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "missed",
       day: "2023-06-12",
       timeSlot: "morning",
@@ -82,7 +87,7 @@ module.exports = {
     },
     {
       id: "157",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "missed",
       day: "2023-06-19",
       timeSlot: "morning",
@@ -90,7 +95,7 @@ module.exports = {
     },
     {
       id: "158",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "missed",
       day: "2023-06-26",
       timeSlot: "morning",
@@ -98,7 +103,7 @@ module.exports = {
     },
     {
       id: "159",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "missed",
       day: "2023-07-03",
       timeSlot: "morning",
@@ -106,7 +111,7 @@ module.exports = {
     },
     {
       id: "160",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "scheduled",
       day: "2023-07-10",
       timeSlot: "morning",
@@ -114,7 +119,7 @@ module.exports = {
     },
     {
       id: "161",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "scheduled",
       day: "2023-07-17",
       timeSlot: "morning",
@@ -122,7 +127,7 @@ module.exports = {
     },
     {
       id: "162",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "scheduled",
       day: "2023-07-24",
       timeSlot: "morning",
@@ -130,7 +135,7 @@ module.exports = {
     },
     {
       id: "163",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "scheduled",
       day: "2023-07-31",
       timeSlot: "morning",
@@ -138,7 +143,7 @@ module.exports = {
     },
     {
       id: "164",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "scheduled",
       day: "2023-08-07",
       timeSlot: "morning",
@@ -146,7 +151,7 @@ module.exports = {
     },
     {
       id: "165",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "scheduled",
       day: "2023-08-14",
       timeSlot: "morning",
@@ -154,7 +159,7 @@ module.exports = {
     },
     {
       id: "166",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "scheduled",
       day: "2023-08-21",
       timeSlot: "morning",
@@ -162,7 +167,7 @@ module.exports = {
     },
     {
       id: "167",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "scheduled",
       day: "2023-08-28",
       timeSlot: "morning",
@@ -170,7 +175,7 @@ module.exports = {
     },
     {
       id: "168",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "scheduled",
       day: "2023-09-04",
       timeSlot: "morning",
@@ -178,7 +183,7 @@ module.exports = {
     },
     {
       id: "169",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "scheduled",
       day: "2023-09-11",
       timeSlot: "morning",
@@ -186,7 +191,7 @@ module.exports = {
     },
     {
       id: "170",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "scheduled",
       day: "2023-09-18",
       timeSlot: "morning",
@@ -194,7 +199,7 @@ module.exports = {
     },
     {
       id: "171",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "scheduled",
       day: "2023-09-25",
       timeSlot: "morning",
@@ -202,7 +207,7 @@ module.exports = {
     },
     {
       id: "172",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "scheduled",
       day: "2023-10-02",
       timeSlot: "morning",
@@ -210,7 +215,7 @@ module.exports = {
     },
     {
       id: "173",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "scheduled",
       day: "2023-10-09",
       timeSlot: "morning",
@@ -218,7 +223,7 @@ module.exports = {
     },
     {
       id: "174",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "scheduled",
       day: "2023-10-16",
       timeSlot: "morning",
@@ -226,7 +231,7 @@ module.exports = {
     },
     {
       id: "175",
-      reservationID: "479081351",
+      reservation_id: "479081351",
       cleanStatus: "scheduled",
       day: "2023-10-23",
       timeSlot: "morning",
