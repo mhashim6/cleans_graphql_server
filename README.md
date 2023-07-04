@@ -7,7 +7,7 @@
 
 ### Run GraphQL Server
 ```bash
-./serve
+./serve.sh
 ```
 
 ### Inspect GraphQL Playground
