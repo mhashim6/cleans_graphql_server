@@ -1,18 +1,20 @@
 ## Instructions
 
 ### Setup 
+- Install [Node](https://nodejs.org/en)
+- Run
 ```bash
 ./setup.sh
 ```
 
-### Run GraphQL Server
+### Start GraphQL Server
+#### Run
 ```bash
 ./serve.sh
 ```
 
 ### Inspect GraphQL Playground
-
-Visit 
+#### Visit 
 ```
 http://localhost:3000
 ```
